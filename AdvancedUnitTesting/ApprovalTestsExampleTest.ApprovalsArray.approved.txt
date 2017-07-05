@@ -1,0 +1,4 @@
+﻿Schlool[0] = Freising Grundschule
+Schlool[1] = Freising Gymnasium
+Schlool[2] = Melbourne Hacker Academy
+Schlool[3] = Lissabon University for Star Wars Fans

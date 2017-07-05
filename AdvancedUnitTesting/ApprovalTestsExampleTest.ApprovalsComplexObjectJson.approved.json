@@ -1,0 +1,18 @@
+﻿{
+    "Age": 30,
+    "Name": "Tommy",
+    "SchoolHistory": [
+        {
+            "Name": "Freising Grundschule"
+        },
+        {
+            "Name": "Freising Gymnasium"
+        },
+        {
+            "Name": "Melbourne Hacker Academy"
+        },
+        {
+            "Name": "Lissabon University for Star Wars Fans"
+        }
+    ]
+}

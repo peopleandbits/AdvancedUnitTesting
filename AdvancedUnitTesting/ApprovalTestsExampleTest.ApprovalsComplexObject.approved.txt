@@ -1,0 +1,3 @@
+﻿Age: 30
+Name: Tommy
+Education: Freising Grundschule, Freising Gymnasium, Melbourne Hacker Academy, Lissabon University for Star Wars Fans
