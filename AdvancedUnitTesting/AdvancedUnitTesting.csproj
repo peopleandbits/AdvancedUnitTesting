@@ -86,11 +86,13 @@
   <ItemGroup>
     <Compile Include="Domain\DiplomaPrinter.cs" />
     <Compile Include="Domain\IDiplomaPrinter.cs" />
+    <Compile Include="Domain\MagicBox.cs" />
+    <Compile Include="FluentAssertionsExampleTest.cs" />
     <Compile Include="MoqExampleTest.cs" />
     <Compile Include="MSTestExampleTest.cs" />
     <Compile Include="ApprovalTestsExampleTest.cs" />
     <Compile Include="Domain\School.cs" />
-    <Compile Include="FluentAssertionsExampleTest.cs" />
+    <Compile Include="FluentAssertionsEventMonitoringTest.cs" />
     <Compile Include="Domain\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
