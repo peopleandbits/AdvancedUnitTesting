@@ -15,7 +15,7 @@ namespace AdvancedUnitTesting
         }
 
         [TestMethod]
-        public void WhenMyMethodParamIs3_ThenEventIsRaisedAndThanksReturned()
+        public void WhenMyMethodParamIs3_ThenEventIsRaisedAndNullReturned()
         {
             var empty = new MagicBox();
             empty.MonitorEvents();
