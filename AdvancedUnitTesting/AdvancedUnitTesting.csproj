@@ -84,8 +84,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="Domain\DiplomaPrinter.cs" />
-    <Compile Include="Domain\IDiplomaPrinter.cs" />
+    <Compile Include="Domain\Car.cs" />
     <Compile Include="Domain\MagicBox.cs" />
     <Compile Include="FluentAssertionsExampleTest.cs" />
     <Compile Include="MoqExampleTest.cs" />

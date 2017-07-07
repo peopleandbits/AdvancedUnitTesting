@@ -9,19 +9,19 @@ namespace AdvancedUnitTesting
     public class MoqExampleTest
     {
         [TestMethod]
-        public void MoqNotImplementedMethod()
+        public void WhenCarIsGivenAnIdealMockMotor_ThenDriveReturnsTrue()
         {
             // assign
-            var p = Student.Default();
-            var mock = new Mock<IDiplomaPrinter>();
-            mock.Setup(c => c.PrintDiploma(p)).Returns("From mock diploma writer...");
-            var school = new School("Freising Gymnasium", mock.Object);
+            var motor = new Mock<IMotor>();
+            motor.Setup(c => c.Start()).Returns(true);
+            motor.Setup(c => c.Stop()).Returns(true);
+            var car = new Car(motor.Object);
 
             // act
-            string diploma = school.GraduateStudent(p);
+            bool result = car.Drive();
 
-            // assert properties
-            diploma.Should().Be("From mock diploma writer...");
+            // assert
+            result.Should().BeTrue();
         }
     }
 }

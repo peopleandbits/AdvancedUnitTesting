@@ -27,29 +27,5 @@ namespace AdvancedUnitTesting
             Assert.AreEqual("Melbourne Hacker Academy", p.SchoolHistory[2].Name);
             Assert.AreEqual("Lissabon University for Star Wars Fans", p.SchoolHistory[3].Name);
         }
-
-        [TestMethod]
-        [ExpectedException(typeof(NotImplementedException))]
-        public void MSTestDiplomaPrinting()
-        {
-            // assign
-            var dp = new DiplomaPrinter();
-            var p = Student.Default();
-
-            // act
-            string diploma = dp.PrintDiploma(p);
-        }
-
-        [TestMethod]
-        [ExpectedException(typeof(NotImplementedException))]
-        public void MSTestSchoolGraduateStudent()
-        {
-            // assign
-            var s = new School("Hochschule Idiot", new DiplomaPrinter());
-            var p = Student.Default();
-
-            // act
-            string diploma = s.GraduateStudent(p);
-        }
     }
 }

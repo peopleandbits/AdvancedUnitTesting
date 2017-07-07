@@ -8,13 +8,6 @@ namespace AdvancedUnitTesting
     public class FluentAssertionsEventMonitoringTest
     {
         [TestMethod]
-        public void WhenMyMethodCalled_ThenThanksIsReturned()
-        {
-            var empty = new MagicBox();
-            empty.MyMethod(1).Should().Be("Thanks");
-        }
-
-        [TestMethod]
         public void WhenMyMethodParamIs3_ThenEventIsRaisedAndNullReturned()
         {
             var empty = new MagicBox();
